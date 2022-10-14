@@ -1,0 +1,23 @@
+{
+  "name": "@mingo_789/number-add-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bulid": "webpack",
+    "prepublish": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "terser-webpack-plugin": "^5.1.4"
+  },
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@mingo_789/vite-admix",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "@vue/composition-api": "^1.7.1",
+    "vite": "3.0.7"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-beta.1",
+    "vue": "^2.0.0 || >=3.0.0-rc.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "vue": "3.2.37",
+    "vue-demi": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

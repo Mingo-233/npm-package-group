@@ -1,0 +1,1 @@
+import{openBlock as t,createElementBlock as n}from"vue";var o={name:"SFCButton",mounted(){console.log("SFCButton init")}};o.render=function(o,u,e,r,l,i){return t(),n("button",null,"SFC Button")},o.__file="src/button/SFCButton.vue";export{o as default};
